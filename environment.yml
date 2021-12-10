@@ -1,0 +1,24 @@
+name: ipyvuetify-vjsf
+# see https://bioconda.github.io/
+# conda-forge has highest prioriy
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - numpy
+  - pandas
+  - pandoc>=2.16
+  - tabulate
+  - jupyterlab>=3
+  - pydantic
+  - ipywidgets
+  - ipyvuetify
+  - ipyvue
+  - voila>=0.2.11
+  - plotly
+  - python-kaleido
+  - markdown
+  - watchdog
+
+
